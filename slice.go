@@ -11,7 +11,7 @@ func main() {
 	c := b[:4]
 	printSlice("c", c)
 	d := c[2:5]
-	printSlice("d", d)
+	printSlice("d", d)//print slice of c
 
 }
 func printSlice(S string, x []int) {
